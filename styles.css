@@ -1,0 +1,88 @@
+.header{
+	/*grid-area:header;*/
+	display:flex;
+	flex-direction:column;
+	background-color:#1abc9c;
+	border-color:black;
+	border:3px solid;
+}
+p.flex_items{
+	color:black;
+	padding-top: 0 10px 0 0;
+	margin: 0 auto;
+	text-align:center;
+	font-size:20px;
+	border:2px solid #FFFFFF;
+}
+h1.flex_items{
+	color:black;
+	margin: 0 auto;
+	padding-top: 0;
+	border-bottom: 0;
+	text-align:center;
+	border:2px solid #FFFFFF;
+}
+
+.profile-pic{
+	height: 150px;
+	width:150px;
+	border-radius:50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.main{
+	/*grid-area:main;*/
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	margin-left:10px;
+	margin-right:320px;
+	margin-top:10px;
+	margin-bottom:10px:;
+	border-radius:5px;
+	padding:20px;
+	font-size:110%;
+	text-align: center;
+}
+p.main{
+	text-align:center;
+}
+h2{
+	text-align: left;
+}
+ul.list{
+	list-style-position: inside;
+	text-align: center;
+}
+.sidebar{
+	/*grid-area:sidebar;*/
+	background-color: #808080;
+	margin:10px;
+	border-radius:5px;
+	padding:20px;
+	font-size:105%;
+	text-align:left;
+	float:left;
+	width:260px; 
+	height:900px;
+}
+p.work_years{
+	text-align:left;
+}
+h3.work_info1{
+	text-align: center;
+}
+p.work_info2{
+	text-align: right;
+}
+p.ed_years{
+	text-align:left;
+}
+p.ed_years1{
+	text-align: left;
+}
+h3.ed_info1{
+	text-align: center;
+}
+h3.ed_info2{
+	text-align: center;
+}
